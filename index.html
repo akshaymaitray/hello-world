@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	
+		var show = function(){
+		$('#myModalnew').modal('show');
+	};
+
+	$(window).load(function(){
+		var timer = window.setTimeout(show,100000);
+	});
+		
+
+	</script> 
+	
+
+  </head>
+  <body>
+  
+   <div id="myModalnew" class="modal fade">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                
+            </div>
+            <div class="modal-body">
+			
+               
+                    <div class="form-group">
+                        <form id="form1" method="post" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+								<input type="hidden" name="oid" value="00D90000000gJ1h" />
+								<input type="hidden" name="retURL" value="http://microsite.buniyad.com/maitray" />
+								<input type="hidden" name="00N90000004FeK4" id="00N90000004FeK4" value = "PPC LANDING PAGE - test-1" />
+								<input type="hidden" name="00N90000004FeK9" id="00N90000004FeK9" value = "test-1" />
+								<input type="hidden" name="lead_source" id = "lead_source" value="Mini-Query" />
+								
+								<form action="sendmail.php" method="post" id="Buniyad" name="Buniyad Retail" onsubmit="return CheckRequiredFields();">
+									<span class="popup-follow"><p> Please fill out this form and we will get in touch with you shortly. </p></span>
+									<span class="popup-name"><input name="first_name" id="first_name" type="text"   placeholder="Name" required/></span>
+									<span class="popup-mail"><input name="email" id="email" type="email" placeholder="Email" required/></span>
+									<span class="popup-phone"><input type="text" name="phone" placeholder="Phone" required/></span>
+									<span class="popup-txt-area"><textarea name="message"  id="message" placeholder="Query"  /></textarea></span>
+									<span class="popup-sub-mit"><input type="submit" value="Submit" /></span>
+								</form>
+                    </div>
+                    
+                    <button></button>
+              
+            </div>
+        </div>
+    </div>
+</div>
+	 
+
+	 
+	<div class="upper-header">
+		<div class="container">
+			<div class="row ">
+			
+				<div class="logo col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<a href=""> <img src="images/Buniyad-Logo.png"  alt="" title=""></a>
+				</div>
+				
+				<div class="phone-number col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<span class="phone-bg">
+					<h2><i class="fa fa-phone" aria-hidden="true"></i> +91 - 9999-999-999 </h2>
+					</span>
+				</div>
+				
+				<div class="new-logo col-lg-3 col-md-3 col-sm-3 col-xs-3">
+					<a href=""> <img src="images/Buniyad-Logo.png"  alt="" title=""></a>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+<div class="upper-menu">
+	<div class="container">
+		<div class="row">
+			<div class="main-menu">
+				<nav class="navbar navbar-inverse">
+
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+					   <a class="navbar-brand" href="#"><i class="fa fa-phone" aria-hidden="true"></i> +91 -9999-999-999 </a>
+					</div>
+					
+					<div class="collapse navbar-collapse" id="myNavbar">
+					  <ul>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a href="about-project.html">About Project</a></li>
+						<li><a href="amenities.html">Amenities</a></li>
+						<li><a href="specification.html">Specification</a></li>						
+						<li><a href="floor-plan.html">Floor Plan</a></li>
+						<li><a href="master-plan.html">Master Plan</a></li>
+						<li><a href="location-map.html">Location Map</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+					  </ul>
+					</div>
+					
+				</nav>
+			</div>				
+		</div>
+	</div>
+</div>
+    
+
+
+
+<div class="slider">
+
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+		  <div class="item active">
+			<img src="images/img-1.jpg">
+		  </div>
+
+		  <div class="item">
+			<img src="images/img-1.jpg">
+		  </div>
+		
+		  <div class="item">
+			<img src="images/img-1.jpg">
+		  </div>
+
+		  <div class="item">
+			<img src="images/img-1.jpg">
+		  </div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+		
+	  </div>
+
+</div>
+
+
+
+<div class="full-mid-content">
+	<div class="container ">
+		<div class="row ">	
+			<div class="mid-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+				<div class="uper-content col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h2> Welcome to Buniyad</h2>
+					<p> Since 2002 we have developed over 50,000 templates. See the recently added below: </p>
+				</div>
+				
+				
+				<div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+					<div class="half-content">
+						<h4> About Buniyad  </h4>
+						<p> TemplateMonster is an A-size depot of website templates - more than 26,000 designs to choose from. Since coming up in May 2002, we've gone partners with Magento, Drupal, WordPress, PrestaShop, Joomla, WooCommerce, and many more. 1,5 million clients were served during this time. Web templates + installation + hosting + customization + Search Engine Optimization + copywriting — all these services you can always get at TemplateMonster.com. If you're thirsty for knowledge, TemplateMonster blog provides you with the most recent web design news, infographics, freebies, discounts & promos.
+						<br />
+						TemplateMonster is an A-size depot of website templates - more than 26,000 designs to choose from. Since coming up in May 2002, we've gone partners with Magento, Drupal, WordPress, PrestaShop, Joomla, WooCommerce, and many more. 1,5 million clients were served during this time. Web templates + installation + hosting + customization + Search Engine Optimization + copywriting — all these services you can always get at TemplateMonster.com. If you're thirsty for knowledge, TemplateMonster blog provides you with the most recent web design news, infographics, freebies, discounts & promos.
+						
+						
+						</p>
+						
+						
+					
+					</div>
+					
+					<div class="home-popup" id="popup" class="modal-box">
+							<a href="#" type="button"  data-toggle="modal" data-target="#myModal"> <i class="fa fa-download" aria-hidden="true"></i>  Download Brochure</a>
+						</div>
+
+				  <!-- Modal -->
+				  <div class="modal fade" id="myModal" role="dialog">
+					<div class="modal-dialog modal-sm">
+					  <div class="modal-content">
+						<div class="modal-header">
+						  <button type="button" class="close" data-dismiss="modal">&times;</button>
+						  
+						</div>
+						<div class="modal-body">
+						  
+							<div class="popup-form">
+								<div class="popup-content-form">
+									<h4><i class="fa fa-download" aria-hidden="true"></i> Download Brochure </h4>
+								</div>
+								
+								<form id="form1" method="post" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8">
+								<input type="hidden" name="oid" value="00D90000000gJ1h" />
+								<input type="hidden" name="retURL" value="http://microsite.buniyad.com/akshay" />
+								<input type="hidden" name="00N90000004FeK4" id="00N90000004FeK4" value = "PPC LANDING PAGE - test-2" />
+								<input type="hidden" name="00N90000004FeK9" id="00N90000004FeK9" value = "test-2" />
+								<input type="hidden" name="lead_source" id = "lead_source" value="Mini-Query" />
+								
+								<form action="sendmail.php" method="post" id="Buniyad" name="Buniyad Retail" onsubmit="return CheckRequiredFields();">
+									<span class="popup-follow"><p> Fill in your Query and Download Brochure. </p></span>
+									<span class="popup-name"><input name="first_name" id="first_name" type="text"   placeholder="Name" required/></span>
+									<span class="popup-mail"><input name="email" id="email" type="email" placeholder="Email" required/></span>
+									<span class="popup-phone"><input type="text" name="phone" placeholder="Phone" required/></span>
+									<span class="popup-txt-area"><textarea name="message"  id="message" placeholder="Query"  /></textarea></span>
+									<span class="popup-sub-mit"><input type="submit" name="phone" placeholder="Phone" /></span>
+								</form>
+
+							</div>
+						  
+						</div>
+						
+					  </div>
+					</div>
+				  </div>
+
+					
+				</div>
+					
+	<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">				
+		<div class="half-form">
+		
+			<div class="half-content-form">
+				<h4> Contact Form </h4>
+			</div>
+								
+			<form id="form1" method="post" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" name="logon" onsubmit="return validateForm();">
+			<input type="hidden" name="oid" value="00D90000000gJ1h" />
+			<input type="hidden" name="retURL" value="http://microsite.buniyad.com/" />
+			<input type="hidden" name="00N90000004FeK4" id="00N90000004FeK4" value = "PPC LANDING PAGE - test-3" />
+			<input type="hidden" name="00N90000004FeK9" id="00N90000004FeK9" value = "test-3" />
+			<input type="hidden" name="lead_source" id = "lead_source" value="Mini-Query" />
+			
+			<form action="sendmail.php" method="post" id="Buniyad" name="Buniyad Retail" onsubmit="return CheckRequiredFields();">
+				<span class="follow"><p> Fill in your Query and we'll get back to you as soon as possible. </p></span>
+				<span class="name"><input name="first_name" id="first_name" type="text"   placeholder="Name" ></span>
+				<span class="mail"><input name="email" id="email" type="email" placeholder="Email" ></span>
+				<span class="phone"><input name="phone" id="phone"  placeholder="Phone" type="text" > </span>
+				<span class="txt-area"><textarea name="message"  id="message" placeholder="Query"  /></textarea></span>
+				<span class="sub-mit"><input type="submit" value="Submit" /></span>
+			</form>
+								
+					<script language="Javascript">
+							function validateForm()
+							{
+
+							 if(document.logon.first_name.value=="")
+								{
+									alert("Please Enter your Name");
+									document.logon.first_name.focus();
+									return false;
+								}
+								 if(!document.logon.first_name.value.match(/^[A-Z a-z]+$/))
+								{
+									alert("Please Enter Name Characters Alphabets Only.");
+									document.logon.first_name.focus();
+									return false;
+								}
+								
+								  if(!document.logon.email.value.match(/^[A-Za-z0-9\._\-+]+@[A-Za-z0-9_\-+]+(\.[A-Za-z0-9_\-+]+)+$/))
+								{
+									alert("Please Enter The Valid Email ID.");
+									document.logon.email.focus();
+									return false;
+								}
+								 
+									if(document.logon.phone.value=="")
+									  {
+									  alert(" Please Enter Phone No");
+									  document.logon.phone.value="";
+									  document.logon.phone.focus();
+									  return false;  
+									  }
+									  
+									  if(document.logon.phone.value!="")
+									  {
+									  var phoneno=document.logon.phone.value;
+									  if((phoneno.length)<10)
+										{
+										alert(" Enter Your Correct Phone No ");
+										document.logon.phone.value=""; 
+										document.logon.phone.focus();
+										return false; 
+										}
+										  
+										  for(i=0;i<phoneno.length;i++)
+										  {
+										  if(!((phoneno.charCodeAt(i)>=48) && (phoneno.charCodeAt(i)<=57)))
+											{
+											alert(" Enter only Numeric values ");
+											document.logon.phone.value="";
+											document.logon.phone.focus();
+											return false; 
+											}
+										  }
+										  
+									  }
+											
+								
+							
+								return true;
+							}
+						</script>
+				
+
+			</div>
+	</div>
+					
+				<div class="clearfix"></div>
+				</div>		
+			</div>
+		</div>
+	</div>
+	
+	
+<div class="full-footer">
+	<div class="container">
+		<div class="row">
+		
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="social-media">
+					<h1> Join us on</h1>
+					<ul>
+						<li><a target="blank" title="Facebook" class="fb" href="https://www.facebook.com/Buniyad.RealEstate"><i class="fa fa-facebook"></i></a> </li>
+						<li><a target="blank" title="Twitter" class="twitter" href="https://twitter.com/buniyaddotcom"><i class="fa fa-twitter"></i></a> </li>
+						<li><a target="blank" title="Linkedin" class="linkedin" href="https://www.linkedin.com/company/buniyad-real-estate-services"><i class="fa fa-linkedin"></i></a> 
+						<li><a target="blank" title="Google+" class="google-plus" href="https://plus.google.com/+Buniyadrealestate"><i class="fa fa-google-plus"></i></a> </li>
+						
+						<li><a target="blank" title="Pinterest" class="pinterest" href="https://www.pinterest.com/buniyaddotcom/"><i class="fa fa-pinterest"></i></a> </li>
+					   </li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="office">
+					<h1> Branch Office</h1>
+					<p> No.51, 15th Cross, MCHS <br/>
+						4th Sector,HSR Layout <br/>
+						Bengaluru – 560 102
+					</p>													
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+				<div class="contact-us">
+					<h1> Contact Us</h1>
+					<p>
+						 Call :  +91 - 9999-999-999  <br/>
+						 Email : <a href="mailto:info@buniyad.com">info@buniyad.com</a> <br/>
+						 Website : <a target="blank" href="http://www.buniyad.com/">www.buniyad.com </a>
+
+					</p>													
+				</div>
+			</div>			
+			
+			
+			
+			<div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+				<div class="end-footer">
+					<p> Copyright © 2016 All Rights Reserved | Marketed By : <a target="blank" href="http://www.buniyad.com/"> Buniyad Retail India Pvt Ltd </a></p>
+				</div>
+			</div>
+			
+			<div class="clear"></div>
+		</div>	
+	</div>
+</div>	
+
+
+<script type="text/javascript" src="js/scrool-top.js"></script>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+	$('span.nav-btn').click(function () { 
+	$('ul.nav').toggle();
+	} )
+</script>
+
+<!-- Right Click Disabled code start here -->	
+<!--  <script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+</script>  --> 
+ <!-- Right Click Disabled code End here -->
+	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
